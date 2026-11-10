@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Standard Can Holder/Cooler</title>
+  <meta name="description" content="x">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="logo" href="#top">Standard Can Holder/Cooler</a>
+    <nav id="site-nav" aria-label="Main">
+      <a href="#overview">Overview</a>
+      <a href="#details">Details</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#faq">FAQ</a>
+      <a href="#sources">Sources</a>
+      <button id="theme-toggle" type="button" aria-label="Switch light or dark theme">Dark mode</button>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!--
+      HOW TO ADD PICTURES
+      1. Put your image files in the "images" folder.
+      2. Replace any <div class="image-slot">...</div> with:
+         <img src="images/your-file.jpg" alt="Describe the picture">
+      Keep the surrounding <figure> and <figcaption> so the caption still shows.
+    -->
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Made for the most common can size</h> (66mm)
+        <p class="lead">The standard can size for most cans is 66 millimeters in diameter, which is what this can holder is made to hold.</p>
+        <a class="button" href="#overview">Read More</a>
+      </div>
+      <figure class="media">
+        <div class="image-slot">Main image</div>
+        <figcaption>Caption for the main image.</figcaption>
+      </figure>
+    </section>
+
+    <section id="facts" aria-label="Key facts">
+      <dl class="facts">
+        <div><dt>Fact one</dt><dd>Value</dd></div>
+        <div><dt>Fact two</dt><dd>Value</dd></div>
+        <div><dt>Fact three</dt><dd>Value</dd></div>
+        <div><dt>Fact four</dt><dd>Value</dd></div>
+      </dl>
+    </section>
+
+    <section id="overview">
+      <h2>Overview</h2>
+      <div class="split">
+        <div class="prose">
+          <p>Introduce the topic here. Explain what it is, why it matters, and what readers will learn.</p>
+          <p>Add more paragraphs as needed. Keep each one short and focused on a single idea.</p>
+        </div>
+        <figure class="media">
+          <div class="image-slot">Image</div>
+          <figcaption>Caption for this image.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="details">
+      <h2>Details</h2>
+
+      <article class="split reverse">
+        <div class="prose">
+          <h3>First subtopic</h3>
+          <p>Explain the first subtopic in plain language. Add lists, links or examples where they help.</p>
+        </div>
+        <figure class="media">
+          <div class="image-slot">Image</div>
+          <figcaption>Caption for this image.</figcaption>
+        </figure>
+      </article>
+
+      <article class="split">
+        <div class="prose">
+          <h3>Second subtopic</h3>
+          <p>Explain the second subtopic here. Copy this whole article block to add more subtopics.</p>
+        </div>
+        <figure class="media">
+          <div class="image-slot">Image</div>
+          <figcaption>Caption for this image.</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <figure class="media"><div class="image-slot">Image 1</div><figcaption>Caption</figcaption></figure>
+        <figure class="media"><div class="image-slot">Image 2</div><figcaption>Caption</figcaption></figure>
+        <figure class="media"><div class="image-slot">Image 3</div><figcaption>Caption</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="faq">
+      <h2>Frequently asked questions</h2>
+      <details>
+        <summary>First question?</summary>
+        <p>The answer to the first question.</p>
+      </details>
+      <details>
+        <summary>Second question?</summary>
+        <p>The answer to the second question.</p>
+      </details>
+      <details>
+        <summary>Third question?</summary>
+        <p>The answer to the third question.</p>
+      </details>
+    </section>
+
+    <section id="sources">
+      <h2>Sources and further reading</h2>
+      <ul>
+        <li><a href="#">Source or link one</a></li>
+        <li><a href="#">Source or link two</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Topic Name. Last updated: add a date here.</p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
